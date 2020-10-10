@@ -7,8 +7,8 @@
 
 <style lang="less"></style>
 <script>
-  import Tabber from "./components/common/tabber/Tabber";
-  export default {
-    components: {Tabber}
-  }
+import Tabber from "./components/common/tabber/Tabber";
+export default {
+  components: { Tabber }
+};
 </script>
