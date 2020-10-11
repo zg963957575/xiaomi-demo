@@ -1,5 +1,5 @@
 <template>
-  <div class="home"></div>
+  <div class="home">我全恶气翁</div>
 </template>
 
 <script>
