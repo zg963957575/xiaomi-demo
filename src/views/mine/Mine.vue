@@ -1,5 +1,7 @@
 <template>
-  <div class="mine"></div>
+  <div class="mine">
+    wode
+  </div>
 </template>
 
 <script>
