@@ -12,7 +12,9 @@ import "vant/lib/index.css";
 import "./assets/css/reset.css";
 import "./assets/css/normalize.css";
 import "./assets/js/rem";
+import { Stepper } from "vant";
 
+Vue.use(Stepper);
 const originalReplace = VueRouter.prototype.replace;
 VueRouter.prototype.replace = function replace(location) {
   return originalReplace.call(this, location).catch(err => err);
