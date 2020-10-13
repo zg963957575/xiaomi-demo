@@ -9,3 +9,7 @@ import $http from "./request";
 //首页轮播图
 
 export const classifydata = () => $http("/data/data.json");
+
+//收货地址图片
+
+export const classaddress = () => $http("/data/address.json");
