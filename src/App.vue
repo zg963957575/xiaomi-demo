@@ -11,6 +11,6 @@
 import Tabber from "./components/common/tabber/Tabber";
 import Classify from "./views/classify/Classify";
 export default {
-  components: {Classify, Tabber }
+  components: { Classify, Tabber }
 };
 </script>
