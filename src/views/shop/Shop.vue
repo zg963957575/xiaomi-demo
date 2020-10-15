@@ -87,6 +87,9 @@ export default {
     this.Guesslike();
     this.commodityId = sessionStorage.getItem("key");
     this.fn();
+    this.$axios.get('/abc').then(res=>{
+      console.log(res)
+    })
   }
 };
 </script>
