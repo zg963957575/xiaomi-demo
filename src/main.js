@@ -7,6 +7,12 @@ import Vant from "vant";
 import LyTab from "ly-tab";
 import VueLazyload from "vue-lazyload";
 import axios from "axios";
+import { Sku } from 'vant';
+import { Popup } from 'vant';
+
+Vue.use(Popup);
+
+
 
 import "vant/lib/index.css";
 import "./assets/css/reset.css";
@@ -23,6 +29,7 @@ Vue.config.productionTip = false;
 Vue.use(Vant);
 Vue.use(LyTab);
 Vue.use(VueLazyload);
+Vue.use(Sku);
 
 new Vue({
   router,

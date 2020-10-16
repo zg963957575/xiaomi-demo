@@ -5,6 +5,8 @@ import Shop from "../views/shop/Shop";
 import Classify from "../views/classify/Classify";
 import Mine from "../views/mine/Mine";
 
+import Detail from "../views/home/childcom/Detail";
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -32,6 +34,10 @@ const routes = [
     path: "/mine",
     name: "Mine",
     component: Mine
+  },
+  {
+    path: "/detail",
+    component: Detail
   }
 ];
 

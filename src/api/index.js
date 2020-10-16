@@ -7,5 +7,7 @@ import $http from "./request";
 // }
 
 //首页轮播图
-
+export const homeimgarr = () => $http("/data/rotationChart.json");
+//首页手机图片
+export const homexiaomi = () => $http("/data/homeGoods.json");
 export const classifydata = () => $http("/data/data.json");
