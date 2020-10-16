@@ -1,5 +1,6 @@
 <template>
   <div class="shop">
+    <p>111</p>
     <div class="header">
       <img src="../../assets/img/1.png" alt="" class="i1" />
       <p class="qq">购物车</p>
