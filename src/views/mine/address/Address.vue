@@ -1,6 +1,7 @@
 <template>
   <div class="address">
     <header>
+      <p>李亚楠</p>
       <van-icon
         name="arrow-left"
         color="#676767"
